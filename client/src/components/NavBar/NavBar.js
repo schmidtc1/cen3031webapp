@@ -13,10 +13,10 @@ const NavBar = () => {
         <AppBar className={classes.appBar} position="static" style={{backgroundColor: "#f57e42"}}>
             <Toolbar>
                 <Typography className={classes.title} variant="h6">CEN3031</Typography>
-                <Button className={classes.button}  href="http://localhost:3000/projects">Projects</Button>
-                <Button className={classes.button}  href="http://localhost:3000/teampairing">Team Pairing</Button>
-                <Button className={classes.button}  href="http://localhost:3000/resources">Resources</Button>
-                <Button align="right" className={classes.loginButton} href="http://localhost:3000/teampairing" onClick={login}>Login</Button>
+                <Button className={classes.button}  href="/projects">Projects</Button>
+                <Button className={classes.button}  href="/teampairing">Team Pairing</Button>
+                <Button className={classes.button}  href="/resources">Resources</Button>
+                <Button align="right" className={classes.loginButton} href="/teampairing" onClick={login}>Login</Button>
                 <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
